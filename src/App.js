@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './component/Header';
+// import main from './component/NewPage';
+import NewPage from './component/NewPage';
+import ResumeProcess from './component/ResumeProcess';
+import  SuccessStories from './component/SuccessStories';
+import MeetOurTeam from './component/MeetOurTeam';
+// import Footer from './component/Footer';
 
-function App() {
+import Footer from './component/footer';
+import AtsOptimize from './component/AtsOptimize';
+// import './component/NewPage.css';
+ 
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <NewPage/>
+      <AtsOptimize/>
+      <ResumeProcess />
+      <SuccessStories/>
+      <MeetOurTeam />
+      <Footer/>
+
+      
+      
     </div>
   );
-}
+};
 
 export default App;

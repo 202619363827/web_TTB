@@ -1,0 +1,41 @@
+
+
+.logo-container {
+    width: 1440px;
+    height: 112px;
+    position: absolute;
+    top: 21px;
+    left: 50px;
+  }
+
+.logo {
+    background-color:#02243F;
+    width: 113px;
+    height: 68px;
+    position: absolute;
+    top: 21px;
+    left: 50px;
+    background: #021f38;
+
+  }
+
+
+header {
+text-align: center;
+padding: 100px;
+
+background-color:  #02243F;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.header-text {
+    
+text-align: center;
+padding: 10px; 
+
+background: linear-gradient(95.97deg, #09324F 0.51%, #82D3F5 106.06%);
+
+}
+.white{
+    color: #f0f0f0;
+}

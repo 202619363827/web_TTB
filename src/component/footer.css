@@ -1,0 +1,27 @@
+.footer-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #157381; 
+    color: white;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 40px; 
+    margin: 0 10px; 
+  }
+  
+  .line {
+    height: 2px;
+    background-color: darkblue;
+    margin: 20px 0;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    background-color: #1e293b;
+  }
+  

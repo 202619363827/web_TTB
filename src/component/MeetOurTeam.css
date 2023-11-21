@@ -1,0 +1,59 @@
+.meet-our-team-container {
+    text-align: center;
+    padding: 80px;
+    
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255); 
+    background-color:#070C37;
+  }
+  
+  .team-item {
+    text-align: center;
+  }
+  
+
+  .team-item h3 {
+    margin-top: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.meet-our-team-container {
+    text-align: center;
+    padding: 80px;
+  }
+  
+  .team-item {
+    text-align: center;
+  }
+  
+  .team-item img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    
+  }
+  
+  .team-item h3 {
+    margin-top: 10px;
+  }
+   */

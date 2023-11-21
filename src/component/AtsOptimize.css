@@ -1,0 +1,59 @@
+/* ATSOptimized.css */
+.ats-optimized-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .ats-optimized-section {
+    text-align: center;
+  }
+  
+  .ats-optimized-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .ats-optimized-section img {
+    width: 400px; 
+    height: 300px; 
+    margin: 20px 0;
+  }
+  
+  .ats-optimized-section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+
+.ats-optimized-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; 
+  }
+  
+  .ats-optimized-section {
+    text-align: center;
+  }
+  
+  .ats-optimized-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
